@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Balane | Web Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">A<span>B.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hello, my name is</p>
+                <h1 class="name">Angeline Rizzi S. Balane.</h1>
+                <h2 class="role">I build things for the web.</h2>
+                <p class="description">
+                    I am a front-end developer specializing in building exceptional digital experiences. 
+                    Currently, I'm focused on creating accessible, human-centered products.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <p>
+                            Hello! My name is Angel and I enjoy creating things that live on the internet. 
+                            My interest in web development started back in 2025 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS taught me a lot about how the web works!
+                        </p>
+                        <p>
+                            Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences.
+                        </p>
+                        
+                        <h3 class="skills-title">Technologies I work with:</h3>
+                        <ul class="skills-list">
+                            <li><i class="fas fa-chevron-right"></i> HTML & CSS</li>
+                            <li><i class="fas fa-chevron-right"></i> JavaScript</li>
+                            <li><i class="fas fa-chevron-right"></i> UI/UX Design</li>
+                            <li><i class="fas fa-chevron-right"></i> Git & GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS & CERTIFICATES Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title fade-in">Projects & Certificates</h2>
+                <p class="section-subtitle fade-in">A selection of my recent work and achievements</p>
+                
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card fade-in">
+                        <div class="card-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <h3 class="card-title">Personal Portfolio</h3>
+                        <p class="card-desc">A simple website that introduces me and presents my work, interests, and contact information.</p>
+                        <div class="card-tags">
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card fade-in" style="transition-delay: 100ms;">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="card-title">Website UI Concept</h3>
+                        <p class="card-desc">A sample website interface focused on clean layout, readable text, and a consistent visual style.</p>
+                        <div class="card-tags">
+                        </div>
+                    </article>
+
+                    <!-- Certificate 1 -->
+                    <article class="project-card certificate fade-in" style="transition-delay: 200ms;">
+                        <div class="card-icon cert-icon"><i class="fas fa-award"></i></div>
+                        <h3 class="card-title">Full-Stack Web Development</h3>
+                        <p class="card-desc">Issued by intensive certification covering backend and frontend technologies.</p>
+                        <a href="#" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT Section -->
+        <section id="contact" class="contact section">
+            <div class="container fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">
+                    Although I’m not currently looking for any new opportunities, my inbox is always open. 
+                    Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                </p>
+                
+                <div class="contact-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    
+                    <div class="contact-socials">
+                        <a href="https://www.instagram.com/_ririzziii/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/chichidesuu" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed & Built by Angel Balane</p>
+        <p class="copyright">&copy; 2026 All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
